@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/whitetexture"
+    tools:context=".Info">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="25dp"
+            android:padding="10dp"
+            android:background="@color/white_transparent">
+
+            <TextView
+                android:id="@+id/Header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lexend_light"
+                android:text="Welcome to Your All-in-One Organizer!"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/subtitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/manrope"
+                android:text="Streamline Your Tasks and Shopping with Ease"
+                android:textSize="16sp"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:id="@+id/textbody1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Our app is designed to simplify your life by bringing together two of the most essential organization tools: a Shopping List and a To-Do List. With an intuitive interface and seamless functionality, managing your daily tasks and shopping needs has never been easier."
+                android:layout_marginTop="10dp"
+                android:textSize="17sp"/>
+
+            <TextView
+                android:id="@+id/textbody2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•	Create and Customize Your Shopping Lists: Say goodbye to forgotten items! Our app allows you to create shopping lists for different occasions or stores."
+                android:layout_marginTop="10dp"
+                android:textSize="17sp"/>
+
+            <TextView
+                android:id="@+id/textbody3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•	Prioritize Your Day: Our To-Do List feature helps you prioritize your daily tasks. Whether it's errands, work-related tasks, or personal goals, you can organize your duties in one click!"
+                android:layout_marginTop="10dp"
+                android:textSize="17sp"/>
+
+            <TextView
+                android:id="@+id/textbody4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•	Track Your Progress: Feel the satisfaction of checking off completed tasks."
+                android:layout_marginTop="10dp"
+                android:textSize="17sp"/>
+
+            <TextView
+                android:id="@+id/textbody5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•	Flexible and User-Friendly: Add and remove tasks with just a few taps. Our flexible interface is designed for simplicity, making it easy for anyone to manage their to-dos efficiently."
+                android:layout_marginTop="10dp"
+                android:textSize="17sp"/>
+
+            <TextView
+                android:id="@+id/textbody6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/lexend_light"
+                android:text="Start organizing your life today with our all-in-one shopping and to-do list app!"
+                android:textSize="17sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
